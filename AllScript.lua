@@ -8,6 +8,6 @@ end
 if PlaceID == 4520749081 or PlaceID == 6381829480 or PlaceID == 5931540094 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/YUMXXXX/HEY-KUY-/main/KUY.lua"))()
 end
-if game.PlaceId == 4616652839 or game.PlaceId == 5447073001 tor game.PlaceId == 5084678830 or game.PlaceId == 5431071837 or game.PlaceId == 5431069982 or game.PlaceId == 5943874201 then
+if game.PlaceId == 4616652839 or game.PlaceId == 5447073001 or game.PlaceId == 5084678830 or game.PlaceId == 5431071837 or game.PlaceId == 5431069982 or game.PlaceId == 5943874201 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/YUMXXXX/sinso2/main/README.lua"))()
 end
