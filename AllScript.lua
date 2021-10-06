@@ -11,7 +11,7 @@ elseif PlaceId == 2753915549 or PlaceId == 4442272183 or PlaceId == 7449423635 t
 elseif PlaceId == 537413528 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/GOJOsatoru1122/SWPRDHUBBUILDABOAT/main/README.md"))()
 else
-	game.Players.LocalPlayer:Kick("สคริปไม่มีเกมนี้ ไอ้เวร")
+	game.Players.LocalPlayer:kick("สคริปไม่มีเกมนี้ ไอ้เวร")
 	wait(1)
 	game:Shutdown()
 end
