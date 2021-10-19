@@ -1,6 +1,8 @@
 local PlaceId = game.PlaceId
 
-if PlaceId == 6284583030 then
+if PlacId == 1458767429 then
+	loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/Anime-Battle-Arena.lua")()
+elseif PlaceId == 6284583030 then
 	loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/Pet-Simulator-X.lua")()
 elseif PlaceId == 4520749081 or PlaceId == 6381829480 or PlaceId == 5931540094 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/xDepressionx/Free-Script/main/KingLegacy.lua"))()
