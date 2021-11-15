@@ -1,5 +1,3 @@
-_G.AutoObservation_Rejoin = true
-
 if not game:IsLoaded() then
     repeat
         wait()
