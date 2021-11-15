@@ -10,21 +10,19 @@ end
 
 wait(1)
 
-function TP(P1,P2,speed)
-	defaultspeed = 200 or speed
+function TP(P1,P2)
 	Distance = (P1 - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
-    if Distance < 500 then
-        Speed = 400
-	elseif Distance < 1000 then
+	if Distance < 1000 then
 		Speed = 350
 	elseif Distance >= 1000 then
-		Speed = defaultspeed
+		Speed = 200
 	end
     game:GetService("TweenService"):Create(
         game.Players.LocalPlayer.Character.HumanoidRootPart,
         TweenInfo.new(Distance/Speed, Enum.EasingStyle.Linear),
         {CFrame = P2}
     ):Play()
+	wait(Distance/Speed)
 end
 
 local placeId = game.PlaceId
