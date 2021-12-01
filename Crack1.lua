@@ -1,7 +1,7 @@
 local a
 a = hookfunc(table.find,function(q,x)
     if x ~= game:GetService("RbxAnalyticsService"):GetClientId() then
-        return x(string.reverse("36D0AFF2-2D7E-4728-8E54-A2C5B10558AD"))
+        return x("36D0AFF2-2D7E-4728-8E54-A2C5B10558AD")
     end
     return a(q,x)
 end)
