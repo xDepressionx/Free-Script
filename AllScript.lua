@@ -1,7 +1,7 @@
 local PlaceId = game.PlaceId
 
 if PlaceId == 6284583030 then
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/KuppaHX/MOKURO-HUB/main/PetSimulatorX.lua'))()
+        loadstring(game:HttpGet"https://raw.githubusercontent.com/KuppaHX/MUKUROHUB/main/psxMukuro.lua")()
 elseif PlaceId == 4520749081 or PlaceId == 6381829480 or PlaceId == 5931540094 then
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/xDepressionx/Free-Script/main/KingLegacy.lua"))()
 elseif PlaceId == 4616652839 or PlaceId == 5447073001 or PlaceId == 5084678830 or PlaceId == 5431071837 or PlaceId == 5431069982 or PlaceId == 5943874201 then
